@@ -32,10 +32,10 @@ const NoSQLStream = require('./nosqlstream');
 const REG_FIELDS_CLEANER = /"|`|\||'|\s/g;
 
 if (!global.framework_utils)
-	global.framework_utils = require('./utils');
+	global.framework_utils = require('skynode-totaljs-utils');
 
 if (!global.framework_image)
-	global.framework_image = require('./image');
+	global.framework_image = require('skynode-totaljs-grpahics/image');
 
 if (!global.framework_nosql)
 	global.framework_nosql = exports;

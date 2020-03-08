@@ -24,8 +24,6 @@
  * @version 1.0.1
  */
 
-require('./index');
-
 const Fs = require('fs');
 const BUFFERSIZE = 1024 * 32;
 const BUFFERDOCS = 15;
